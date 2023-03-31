@@ -21,4 +21,4 @@ npm install
 # Start the application with the process name SimpleApplication2 using pm2
 pm2 start ./bin/www --name holiclinic
 
-# changes rep to private again
+# changes rep to private again2

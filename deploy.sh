@@ -7,18 +7,18 @@ sudo apt update && sudo apt install nodejs npm
 sudo npm install -g pm2
 
 # stop any instance of our application running currently
-pm2 stop Holiclinic-DevOpsSec
+pm2 stop holiclinic
 
 # change directory into folder where application is downloaded
-cd Holiclinic-DevOpsSec
+cd holiclinic
 
 # Install application dependancies
 npm install
 
-echo $PRIVATE_KEY > privatekey.pem
-echo $SERVER > server.crt
+#echo $PRIVATE_KEY > privatekey.pem
+#echo $SERVER > server.crt
 
 # Start the application with the process name SimpleApplication2 using pm2
-pm2 start ./bin/www --name Holiclinic-DevOpsSec
+pm2 start ./bin/www --name holiclinic
 
 # end

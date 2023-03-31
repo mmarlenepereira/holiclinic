@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="HoliClinic is a Holistic Clinic based in Dublin that offers Acupuncture, Massage and Energy Healing Services. You will be in good hands with our experienced therapists.">
+	<title>HoliClinic - About Us</title>
+	<!-- Bootstrap CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<!-- Getting typeface Josefin Sans from Google API -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+	<!-- Our CSS files -->
+		<link rel="stylesheet" href="css/global-style.css">
+		<link rel="stylesheet" href="css/aboutus-style.css">
+	<!-- Bootstrap JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Navbar built using Bootstrap -->
+	<nav class="navbar navbar-expand-md ">
+		<div class="container"> <!-- container will keep all elements inside the 12-grid system -->
+			<a class="navbar-brand" href="index.html"><img src="images/logo-holiclinic.svg" style="height:35px" alt="HoliClinic Logo resembling a Lotus Flower"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ms-auto mt-3"> <!-- ms-auto brings the menu to the right-side, mt-3 is extra margin at the top -->
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+					<li class="nav-item"><a class="nav-link" href="booking.html">Make a Booking</a></li>
+					<li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- Service buttons with collapsible content -->
+	<div class="container col-xs-12 col-lg-7 pt-4">
+		<br>
+		<center><h1>About HoliClinic</h1>
+		<p>HoliClinic is a private therapy clinic in Dublin since 2010, located at the heart of the city, with state-of-the-art facilities operated by the most high-standard professionals. We offer therapy services such as Massage, Acupuncture and Reiki Energy Healing.</p></center>
+		<br>
+	</div>
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-xs-12 col-lg-5 pt-5">
+				<center><h2>Our Services</h2></center>
+				<div class="pt-4">
+					<button class="collapsible acupunture" alt="Background image of Acupuncture therapy">Acupuncture</button> <!-- class collapsible is going to trigger a JavaScript Event Listener to uncollapse the content -->
+					<div class="content">
+					  <p>Acupuncture is a form of alternative medicine and a component of traditional Chinese medicine (TCM) in which thin needles are inserted into the body. There is a range of acupuncture variants which originated in different philosophies, and techniques vary depending on the country in which it is performed, but can be divided into two main foundational philosophical applications and approaches, the first being the modern standardized form called eight principles TCM and the second an older system that is based on the ancient Daoist wuxing, better known as the five elements or phases in the West.</p>
+					</div>
+					<button class="collapsible massage" alt="Background image of Massage therapy">Massage</button>
+					<div class="content">
+					  <p>Massage is the manipulation of the body's soft tissues. Massage techniques are commonly applied with hands, fingers, elbows, knees, forearms, feet or a device. The purpose of massage is generally for the treatment of body stress or pain. In European countries, a person professionally trained to give massages is traditionally known as a masseur (male) or masseuse (female).</p>
+					</div>
+					<button class="collapsible energy" alt="Background image of Energy Healing therapy">Energy Healing</button>
+					<div class="content">
+					  <p>Many people often assume that energy healing and massage therapy are one and the same. However, there is a difference between the two. Energy healing believes that the human energy field extends beyond the body and skin. Energy healing also believes that when the flow of this energy is obstructed or imbalanced, it results in ailments and health problems. So the main aim of energy healing is to restore the balance of the energy field and facilitate healing of the body and mind. It is seen as a natural process of restoring the body, spirit and mind to complete health.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-lg-6 pt-5"> <!-- pt-5 is adding padding to the top of my column in roder to have space when it stacks for small screens-->
+				<center><h2>Our Staff</h2></center>
+				<div class="row d-flex justify-content-center pt-4">
+					<div class="col-4 pb-5">
+						<center>
+							<img src="images/staff-01.png" width="130px" height="130px" alt="Portrait of Dr. Timothy Alder"><br><br>
+							<h4>Dr. Timothy Alder</h4>
+							<h6>Massage Therapist</h6>
+						</center>
+					</div>
+					<div class="col-4 pb-5">
+						<center>
+							<img src="images/staff-02.png" width="130px" height="130px" alt="Portrait of Dr. Rose Graham"><br><br>
+							<h4>Dr. Rose Graham</h4>
+							<h6>Acupuncture Therapist</h6>
+						</center>
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center">
+					<div class="col-4 pb-5">
+						<center>
+							<img src="images/staff-03.png" width="130px" height="130px" alt="Portrait of Dr. Izabella Frances"><br><br>
+							<h4>Dr. Izabella Frances</h4>
+							<h6>Reiki Therapist</h6>
+						</center>
+					</div>
+					<div class="col-4 pb-5">
+						<center>
+							<img src="images/staff-04.png" width="130px" height="130px" alt="Portrait of Dr. Jimmy Bean"><br><br>
+							<h4>Dr. Jimmy Bean</h4>
+							<h6>Massage Therapist</h6>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script> <!-- linking to JavaScript to run the collapsible Event Listener -->
+
+	<div class="container">
+		<br><br>
+		<center><h2>Our Location</h2></center><br><br>
+	</div>
+
+	<div class="container pb-5">
+		<div class="row d-flex justify-content-center ">
+			<div class="col-sm-12 col-lg-10 map-responsive" alt="Map Location">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.682897096189!2d-6.24518684831496!3d53.34893238211996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8cd86e97e7%3A0x6d51b774ee7fa935!2sNational%20College%20of%20Ireland!5e0!3m2!1sen!2sie!4v1670428926701!5m2!1sen!2sie" width="800" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</div>
+
+
+<!-- footer -->
+	<div class="container-fluid footer"> <!-- container-fluid gives it full width on the page -->
+		<div class="container">
+			<div class="spacer"></div>
+			<div class="row d-flex justify-content-center pb-4"> <!-- display:flex; justify center to have it centered, pb-4 is padding-bottom:4 so the footer has some blank space at the bottom -->
+				<div class="col-xs-12 col-md-8">
+					<h5><a href="contactus.html">Contact Us</a></h5>
+					<p>123 Clinic Road, Dublin 01, D01W3E4<br>Phone: <a href="tel:#">+353 01 234 5678</a><br>Email: <a href="mailto:#">info@holiclinic.ie</a></p>
+					<br><h6>Opening Hours</h6>
+					<p>09:00 - 18:00 Monday to Friday<br>09:00 - 13:00 Saturday<br>Closed on Sundays</p>
+				</div>
+				<div class="col-xs-12 col-md-4 d-flex justify-content-end align-items-end pb-4"> <!-- display:flex; justify end sends to the right side, align end sends to the bottom, pb-4 is padding-bottom:4-->
+						<div>
+							<a href="#" target="_blank"><img src="images/social-facebook.svg" width=50 height=50 alt="Facebook Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-instagram.svg" width=50 height=50 alt="Instagram Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-twitter.svg" width=50 height=50 alt="Twitter Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-whatsapp.svg" width=50 height=50 alt="Whatsapp Icon"></a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

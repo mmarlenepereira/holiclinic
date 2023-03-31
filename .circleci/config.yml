@@ -1,0 +1,45 @@
+version: 2.1
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - main
+      - deploy:
+          filters:
+            branches:
+              only:
+                - main
+          requires:
+            - build
+
+
+
+# Define the jobs we want to run for this project
+jobs:
+  build:
+    working_directory: ~/holiclinic
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@8.1.4'
+      - run:
+          name: install-npm
+          command: npm install
+      - run:
+          name: test-run
+          command: npm run test
+  deploy:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - run:
+          name: deploy-application
+          command: ssh -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_PUBLIC_DNS "rm -rf holiclinic/; git clone https://github.com/mmarlenepereira/holiclinic.git; source holiclinic/deploy.sh"

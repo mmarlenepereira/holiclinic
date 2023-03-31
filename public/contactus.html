@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="HoliClinic is a Holistic Clinic based in Dublin that offers Acupuncture, Massage and Energy Healing Services. Contact us if you have any questions or enquires.">
+	<title>HoliClinic - Contact Us</title>
+	<!-- Bootstrap CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<!-- Getting typeface Josefin Sans from Google API -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+	<!-- Our CSS files -->
+		<link rel="stylesheet" href="css/global-style.css">
+		<link rel="stylesheet" href="css/contactus-style.css">
+	<!-- Bootstrap JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Navbar built using Bootstrap -->
+	<nav class="navbar navbar-expand-md ">
+		<div class="container"> <!-- container will keep all elements inside the 12-grid system -->
+			<a class="navbar-brand" href="index.html"><img src="images/logo-holiclinic.svg" style="height:35px" alt="HoliClinic Logo resembling a Lotus Flower"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ms-auto mt-3"> <!-- ms-auto brings the menu to the right-side, mt-3 is extra margin at the top -->
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+					<li class="nav-item"><a class="nav-link" href="booking.html">Make a Booking</a></li>
+					<li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- Form -->
+	<div class="container d-flex justify-content-center p-5">
+		<div class="col-sm-12 col-md-10 col-lg-9">
+			<h1>Contact Us</h1>
+			<p>We'll reply as soon as possible.</p>
+			<form action="mailto:x22115234@student.ncirl.ie" method="post" enctype="text/plain" name="EmailForm">
+				<label for="name">Name</label>
+				<input id="name" type="text" name="Name" placeholder="Your name here">
+
+				<label for="email">Email</label>
+				<input id="email" type="email" name="Email" placeholder="youremail@domain.com">
+
+				<label for="phone">Phone</label>
+				<input id="phone" type="tel" name="Phone" placeholder="(000) 000 0000">
+
+				<label for="message">Message</label>
+				<textarea id="message" name="Message" placeholder="Please write your message here."></textarea>
+
+				<input class="button-send" type="submit" value="Submit Form">
+			</form>
+		</div>
+	</div>
+
+	<div class="container pb-5">
+		<div class="row d-flex justify-content-center ">
+			<div class="col-sm-12 col-md-10 col-lg-9 map-responsive" alt="Map Location">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.682897096189!2d-6.24518684831496!3d53.34893238211996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8cd86e97e7%3A0x6d51b774ee7fa935!2sNational%20College%20of%20Ireland!5e0!3m2!1sen!2sie!4v1670428926701!5m2!1sen!2sie" width="800" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</div>
+
+
+<!-- footer -->
+	<div class="container-fluid footer"> <!-- container-fluid gives it full width on the page -->
+		<div class="container">
+			<div class="spacer"></div>
+			<div class="row d-flex justify-content-center pb-4"> <!-- display:flex; justify center to have it centered, pb-4 is padding-bottom:4 so the footer has some blank space at the bottom -->
+				<div class="col-xs-12 col-md-8">
+					<h5><a href="contactus.html">Contact Us</a></h5>
+					<p>123 Clinic Road, Dublin 01, D01W3E4<br>Phone: <a href="tel:#">+353 01 234 5678</a><br>Email: <a href="mailto:#">info@holiclinic.ie</a></p>
+					<br><h6>Opening Hours</h6>
+					<p>09:00 - 18:00 Monday to Friday<br>09:00 - 13:00 Saturday<br>Closed on Sundays</p>
+				</div>
+				<div class="col-xs-12 col-md-4 d-flex justify-content-end align-items-end pb-4"> <!-- display:flex; justify end sends to the right side, align end sends to the bottom, pb-4 is padding-bottom:4-->
+						<div>
+							<a href="#" target="_blank"><img src="images/social-facebook.svg" width=50 height=50 alt="Facebook Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-instagram.svg" width=50 height=50 alt="Instagram Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-twitter.svg" width=50 height=50 alt="Twitter Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-whatsapp.svg" width=50 height=50 alt="Whatsapp Icon"></a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

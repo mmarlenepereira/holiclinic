@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="HoliClinic is a Holistic Clinic based in Dublin that offers Acupuncture, Massage and Energy Healing Services. You can book a slot with our therapists directly on this page.">
+	<title>HoliClinic - About Us</title>
+	<!-- Bootstrap CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<!-- Getting typeface Josefin Sans from Google API -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+	<!-- Our CSS files -->
+		<link rel="stylesheet" href="css/global-style.css">
+		<link rel="stylesheet" href="css/booking-style.css">
+	<!-- Bootstrap JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Navbar built using Bootstrap -->
+	<nav class="navbar navbar-expand-md ">
+		<div class="container"> <!-- container will keep all elements inside the 12-grid system -->
+			<a class="navbar-brand" href="index.html"><img src="images/logo-holiclinic.svg" style="height:35px" alt="HoliClinic Logo resembling a Lotus Flower"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ms-auto mt-3"> <!-- ms-auto brings the menu to the right-side, mt-3 is extra margin at the top -->
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+					<li class="nav-item"><a class="nav-link" href="booking.html">Make a Booking</a></li>
+					<li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- Header -->
+	<div class="booking-header" alt="Background image of Massage therapy">
+		<div class="container col-xs-12 col-lg-7 pt-4">
+			<div class="booking-text">
+				MAKE A BOOKING
+			</div>
+		</div>
+	</div>
+
+<!-- Calendly Widget for booking -->
+	<div class="container-fluid pb-5" style="background-color:#FBFCFD">
+		<center>
+			<div class="calendly-inline-widget" data-url="https://calendly.com/x22159207" style="min-width:320px;height:750px;"></div>
+			<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+		</center>
+	</div>
+
+
+<!-- footer -->
+	<div class="container-fluid footer"> <!-- container-fluid gives it full width on the page -->
+		<div class="container">
+			<div class="spacer"></div>
+			<div class="row d-flex justify-content-center pb-4"> <!-- display:flex; justify center to have it centered, pb-4 is padding-bottom:4 so the footer has some blank space at the bottom -->
+				<div class="col-xs-12 col-md-8">
+					<h5><a href="contactus.html">Contact Us</a></h5>
+					<p>123 Clinic Road, Dublin 01, D01W3E4<br>Phone: <a href="tel:#">+353 01 234 5678</a><br>Email: <a href="mailto:#">info@holiclinic.ie</a></p>
+					<br><h6>Opening Hours</h6>
+					<p>09:00 - 18:00 Monday to Friday<br>09:00 - 13:00 Saturday<br>Closed on Sundays</p>
+				</div>
+				<div class="col-xs-12 col-md-4 d-flex justify-content-end align-items-end pb-4"> <!-- display:flex; justify end sends to the right side, align end sends to the bottom, pb-4 is padding-bottom:4-->
+						<div>
+							<a href="#" target="_blank"><img src="images/social-facebook.svg" width=50 height=50 alt="Facebook Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-instagram.svg" width=50 height=50 alt="Instagram Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-twitter.svg" width=50 height=50 alt="Twitter Icon"></a>
+							<a href="#" target="_blank"><img src="images/social-whatsapp.svg" width=50 height=50 alt="Whatsapp Icon"></a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

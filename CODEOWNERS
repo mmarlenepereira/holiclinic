@@ -1,4 +1,5 @@
-config.yml @mmarlenepereira
-bin/www @mmarlenepereira
+
+/circle.ci/config.yml @mmarlenepereira
+/bin/www @mmarlenepereira
 deploy.sh @mmarlenepereira
 app.js @mmarlenepereira

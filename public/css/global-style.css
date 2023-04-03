@@ -1,0 +1,113 @@
+/* Global Style CSS File - Co-Created by the whole group */
+
+body{
+	font-family: 'Josefin Sans';
+	background-color: #efefff;
+}
+
+h1{
+	font-size: 28px;
+	font-weight:400;
+	text-transform: uppercase;
+	color:#2C2759;
+}
+
+h2{
+	font-size: 24px;
+	font-weight:400;
+	text-transform: uppercase;
+	color:#2C2759;
+}
+
+h3{
+	font-size: 20px;
+	font-weight:300;
+	text-transform: uppercase;
+	color:#2C2759;
+}
+
+h4{
+	font-size: 18px;
+	font-weight:500;
+	text-transform: uppercase;
+	color:#2C2759;
+}
+
+h5{
+	font-size: 14px;
+	font-weight:600;
+	text-transform: uppercase;
+	color:#2C2759;
+	letter-spacing:3px;
+}
+
+h6{
+	font-size: 12px;
+	font-weight:400;
+	text-transform: uppercase;
+	color:#928EBF;
+	letter-spacing:1px;
+}
+
+p{
+	font-weight:300;
+	font-size:20px;
+	color:#2C2759;
+}
+
+/* Style for the Navigation Bar - START */
+.navbar{
+	background-color: #ffffff;
+	font-size: 20px;
+	padding: 15px 0px 15px 0px;
+}
+
+.nav-link{
+	color:#605AA1;
+	font-weight:300;
+	
+}
+
+.nav-link:hover{
+	font-weight:400;
+}
+
+ul li{
+	color:#2C2759;
+	list-style-type:none;
+}
+
+a{
+	color: #2C2759
+}
+a:hover{
+	color: #8AAA79
+}
+/* Style for the Navigation Bar - END */
+
+/* Spacer <div> */
+.spacer{
+	height:50px;
+}
+
+/* Footer background-colour */
+.footer{
+	background-color: white;
+}
+
+/* Google Maps - make the map responsive */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

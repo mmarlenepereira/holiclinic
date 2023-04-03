@@ -1,0 +1,73 @@
+/* About Us CSS File - Thiago Barbosa */
+
+p{
+	margin-top:20px;
+}
+
+
+/* The button that opens and closes the collapsed section*/
+.collapsible {
+	color: white;
+	cursor: pointer;
+	padding: 20px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size:22px;
+	letter-spacing:3px;
+	text-transform: uppercase;
+	font-weight:300;
+	color:#2C2759;
+	height: 130px;
+	margin: 10px;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	
+}
+
+/* The button appearance when it's hovered by the cursor, and when it has been clicked*/
+.active, .collapsible:hover {
+	font-weight:500;
+}
+
+.content {
+	padding: 0 20px 20px 20px;
+	max-height: 0;
+	overflow: hidden; /* the overflow property is visible by default, by leaving it hidden it will clip any content that is too big for it's area*/
+	transition: max-height 0.2s ease-out; /* a transition to smooth the opening */
+	background-color: #f1f1f1;
+}
+
+.collapsible:after {
+	content: '+';
+	font-size: 36px;
+	line-height: 30px;
+	font-weight:400;
+	color: white;
+	float: right;
+}
+
+.active:after {
+	content: "-";
+	font-size: 36px;
+	line-height: 30px;
+	font-weight:400;
+	color: white;
+	float: right;
+	margin-left: 5px;
+}
+
+.acupunture{
+	background-image: url("../images/coll-acupunture.jpg");
+}
+
+.massage{
+	background-image: url("../images/coll-massage.jpg");
+}
+
+.energy{
+	background-image: url("../images/coll-energy.jpg");
+}
+

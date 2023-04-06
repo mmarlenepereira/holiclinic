@@ -1,3 +1,5 @@
+// checkes the buttons on the Homepage
+
 const fs = require('fs');
 const path = require('path');
 const request = require('supertest');

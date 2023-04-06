@@ -18,7 +18,7 @@ npm install
 echo $PRIVATE_KEY > privatekey.pem
 echo $SERVER > server.crt
 
-# Start the application with the process name SimpleApplication2 using pm2
+# Start the application with the process name Holiclinic using pm2
 pm2 start ./bin/www --name holiclinic
 
-# changes rep to private again2
+

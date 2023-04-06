@@ -1,4 +1,4 @@
-//checks for a Calendly script/Calendly widget on the Booking page
+//checks for a Calendly script/widget on the Booking page
 
 const request = require('supertest');
 const cheerio = require('cheerio');
